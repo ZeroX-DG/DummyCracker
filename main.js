@@ -32,6 +32,7 @@ function getTarget() {
 let population;
 let loop;
 function startAlgorithm() {
+  stopAlgorithm();
   let max_population = parseInt(
     document.getElementById('max-population-field').value
   );
